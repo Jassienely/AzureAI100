@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\TestCLI\\TestCLI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ImageStorageLibrary\\ImageStorageLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ImageStorageLibrary\\ImageStorageLibrary.csproj",
+        "projectName": "ImageStorageLibrary",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ImageStorageLibrary\\ImageStorageLibrary.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ImageStorageLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.Azure.Storage.Blob": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ProcessingLibrary\\ProcessingLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ProcessingLibrary\\ProcessingLibrary.csproj",
+        "projectName": "ProcessingLibrary",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ProcessingLibrary\\ProcessingLibrary.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ProcessingLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\TestCLI\\TestCLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\TestCLI\\TestCLI.csproj",
+        "projectName": "TestCLI",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\TestCLI\\TestCLI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\TestCLI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp5"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "netcoreapp5",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ImageStorageLibrary\\ImageStorageLibrary.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ImageStorageLibrary\\ImageStorageLibrary.csproj"
+              },
+              "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ProcessingLibrary\\ProcessingLibrary.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\AI-100-Design-Implement-Azure-AISol-master\\Lab2-Implement_Computer_Vision\\code\\Starter\\ProcessingLibrary\\ProcessingLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.CommandLineUtils": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
